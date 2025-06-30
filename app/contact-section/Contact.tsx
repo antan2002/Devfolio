@@ -20,7 +20,7 @@ const Contact = () => {
         <div
           className={`flex flex-col items-start justify-center ${monaSans.className} relative w-full sm:items-center lg:max-w-[1440px] `}
         >
-         <motion.div
+          <motion.div
             initial={{ x: "-100vw" }} // Start off-screen to the left
             animate={{ x: 0 }}        // Move to its final position
             transition={{
@@ -36,7 +36,7 @@ const Contact = () => {
                 "flex max-w-[500px] flex-col items-start text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[100px] md:text-[160px] lg:text-center lg:text-[170px] xl:text-[290px]"
               }
             />
-            </motion.div>
+          </motion.div>
         </div>
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-12 lg:max-w-[1440px]">
@@ -111,7 +111,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/antan.r_"
+              href="https://www.instagram.com/zentrov.a/"
               target="_blank"
               aria-label="View Codolio Profile"
             >

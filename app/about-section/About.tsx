@@ -25,7 +25,7 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "An aspiring developer passionate about crafting innovative solutions. I excel in C++, HTML5, CSS3, JavaScript, React.js, Node.js, MongoDB, and have strong problem-solving skills in Data Structures & Algorithms."
+                "An aspiring developer passionate about crafting innovative solutions. I excel in C++, HTML5, CSS3, JavaScript, React.js, Next.js, Node.js, MongoDB, and have strong problem-solving skills in Data Structures & Algorithms."
               }
             />
             <AnimatedBody
@@ -87,7 +87,7 @@ const About = () => {
               />
             </div>
           </div>
-        </div> 
+        </div>
       </div>
     </section>
   );
