@@ -52,7 +52,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "C++, JavaScript, HTML/CSS, React.js, Next.js, Node.js, Express.js, Bootstrap, RESTAPI, MongoDB, PostgreSQL, Socket.io"
+                  "C++, JavaScript, TypeScript, HTML/CSS, React.js, Next.js, Node.js, Express.js, Bootstrap, RESTAPI, MongoDB, PostgreSQL, Socket.io, OpenAI, GenAI, Tailwind CSS, LLM"
                 }
               />
             </div>
@@ -82,7 +82,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "Data Structure & Algorithm, Database Management Systems, Object Oriented Programming, Operating System"
+                  "Data Structure & Algorithm, Database Management Systems, Object Oriented Programming, Operating System, Computer Network, Low Level Design"
                 }
               />
             </div>

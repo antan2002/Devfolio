@@ -17,7 +17,7 @@ export const devProjects = [
       "Developed an AI based Travel Advisor that enhanced user engagement by 60% through personalized itineraries.",
     technologies: ["MongoDB", "React.js", "Node.js"],
     github: "https://github.com/antan2002/AI-Trip-Generator",
-    demo: "https://make-travel.netlify.app/",
+    demo: "https://ai-based-tripgenerator.netlify.app/",
     image: require(".//../../public/projects/Trip-Generate.png"),
     available: true,
   },
