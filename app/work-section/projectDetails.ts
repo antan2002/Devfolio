@@ -19,7 +19,7 @@ export const devProjects = [
     technologies: ["MongoDB", "React.js", "Node.js", "Gemini-AI"],
     github: "https://github.com/antan2002/IntelliCart-Sparkathon",
     demo: "https://youtu.be/rYBkbamDUmI",
-    image: require(".//../../public/projects/intellicart.png"),
+    image: require(".//../../public/projects/IntelliCart.png"),
     available: true,
   },{
     id: 1,
