@@ -68,21 +68,22 @@ const Hero = () => {
       <div className="absolute bottom-10 flex items-center justify-center md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between">
         <motion.div className="max-w-[350px] md:max-w-[400px] lg:max-w-[400px]" variants={bodyAnimation}>
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Full Stack Developer and Embedded Software Engineer, Intern at{" "}
+            Software Engineer at {" "}
             <Link
-              href="https://cnkbharat.com/"
+              href="https://www.nrolled.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="C&N Green Energy"
+              aria-label="Nrolled"
             >
-              C&N Green Energy
+              Nrolled
             </Link>
+            <br></br>Workforce Management Solution.
           </p>
         </motion.div>
 
         <motion.div className="hidden max-w-[500px] lg:block lg:max-w-[420px]" variants={bodyAnimation}>
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Pre-Final year student passionate about coding, problem-solving, and learning new technologies.
+            Final year student passionate about coding, problem-solving, and learning new technologies.
           </p>
         </motion.div>
       </div>

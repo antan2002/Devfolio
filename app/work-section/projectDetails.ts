@@ -10,8 +10,19 @@ export type ProjectProps = {
 };
 
 export const devProjects = [
+  
   {
     id: 0,
+    name: "IntelliCart",
+    description:
+      "The system uses Gemini-Pro LLM API for personalized product recommendations with health-aware filtering. The AI analyzes user preferences and applies intelligent filtering based on health criteria to suggest relevant products.",
+    technologies: ["MongoDB", "React.js", "Node.js", "Gemini-AI"],
+    github: "https://github.com/antan2002/IntelliCart-Sparkathon",
+    demo: "https://youtu.be/rYBkbamDUmI",
+    image: require(".//../../public/projects/intellicart.jpg"),
+    available: true,
+  },{
+    id: 1,
     name: "AI Trip Genenrator",
     description:
       "Developed an AI based Travel Advisor that enhanced user engagement by 60% through personalized itineraries.",
@@ -22,7 +33,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "ChargeX",
     description:
       "Developed and designed a comprehensive full-stack e-commerce platform focused on electric vehicle (EV) chargers.",
@@ -33,7 +44,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "Chess.com",
     description:
       "This project is an online chess game where two players can play against each other in real time. It uses Socket.IO to send and receive updates instantly between the players.",
@@ -44,7 +55,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 3,
+    id: 4,
     name: "FaceBrain",
     description:
       "A face recognition app is a smart Brain that utilizes computer vision technology to detect and identify faces within images or video streams.",
@@ -55,7 +66,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "Spacer-main",
     description:
       "A space-themed landing page built with React, featuring a full-screen starry background, parallax scrolling, and interactive elements.",

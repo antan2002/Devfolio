@@ -36,11 +36,11 @@ export const blogDetails = [
     available: true,
   },
   {
-    title: "Software Embedded Engineer",
+    title: "Embedded Engineer",
     image:
       require(".//../../public/Internship/C&N.png"),
     name: "C & N Green Energy Pvt Ltd",
-    date: "Aug 2023 - present",
+    date: "Aug 2023 - Nov 2025",
     url: "https://cnkbharat.com/",
     available: true,
   },

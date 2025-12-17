@@ -113,10 +113,24 @@ const Contact = () => {
             <Link
               href="https://www.instagram.com/zentrov.a/"
               target="_blank"
-              aria-label="View Codolio Profile"
+              aria-label="View Instagram Profile"
             >
               <AnimatedTitle
                 text={"IN"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+            </Link>
+            <Link
+              href="https://x.com/antan2002"
+              target="_blank"
+              aria-label="View Twitter Profile"
+            >
+              <AnimatedTitle
+                text={"X"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
